@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Sentinel-Light';
+  src: url('./fonts/sentinel-light.ttf');
+}
+
+@font-face {
+  font-family: 'Sentinel-Book';
+  src: url('./fonts/sentinel-book.ttf');
+}
+
+@font-face {
+  font-family: 'Sentinel-Bold';
+  src: url('./fonts/sentinel-bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Gotham Rounded Bold';
+  src: url('./fonts/Gotham-Rounded-Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Gotham Rounded Book';
+  src: url('./fonts/Gotham-Rounded-Book.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Gotham Rounded Light';
+  src: url('./fonts/Gotham-Rounded-Light.ttf');
+  font-weight: bold;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Gotham Rounded Book', serif;
+}
+
+body {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 10% auto 5%;
+  background: rgb(255,216,155);
+  background: linear-gradient(0deg, rgba(255,216,155,1) 0%, rgba(25,84,123,1) 100%);
+}
+
+img {
+  max-width: 100%;
+}
+
+#under-construction {
+  grid-column: 1 / -1;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+#under-construction img {
+  width: 30%;
+  margin-left: 35%;
+}
+
+#under-construction p {
+  font-family: 'Gotham Rounded Bold', serif;
+  text-align: center;
+  font-size: 3em;
+}
+
+
+
